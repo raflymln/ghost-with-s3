@@ -5,16 +5,9 @@ permissions:
   packages: write
 
 on:
-  release:
-    types: [created]
   push:
     branches:
-      - main
-  pull_request:
-    branches:
-      - "**"
-    paths:
-      - "Dockerfile"
+      - master
 
 jobs:
   docker:
