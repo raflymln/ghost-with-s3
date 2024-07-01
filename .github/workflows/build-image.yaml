@@ -11,6 +11,6 @@ on:
 
 jobs:
   docker:
-    uses: kakushindev/workflows/.github/workflows/build-docker-image.yml@main
+    uses: NezuChan/workflows/.github/workflows/docker-build.yml@main
     secrets: inherit
     
